@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-right: 30px;
+  font-family: "Questrial", sans-serif;
+  line-height: 1.5;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+}
+
+main {
+  margin-left: 300px;
+  width: calc(100%-300px);
+}
+
+nav header {
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  line-height: 2;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  padding-top: 25px;
+}
+
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  header {
+    text-align: center;
+  }
+  nav {
+    width: 100%;
+    position: initial;
+  }
+  main {
+    width: 100%;
+    margin-left: 0;
+  }
+}
