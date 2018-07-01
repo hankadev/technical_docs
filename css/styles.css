@@ -53,6 +53,10 @@ nav ul li {
   padding: 20px;
 }
 
+#menuIcon {
+  display: none;
+}
+
 .main-section header {
   font-size: 2em;
 }
@@ -67,29 +71,21 @@ code {
 
 @media (max-width: 600px) {
   body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 0px;
+    padding: 0;
   }
-  header {
-    text-align: center;
+  #menuIcon {
+    display: initial;
+    padding-left: 15px;
   }
-  nav {
+  #navbar {
+    height: auto;
     width: 100%;
-    position: initial;
+  }
+  .invisible {
+    display: none;
   }
   main {
-    width: 100%;
     margin-left: 0;
+    margin-top: 50px;
   }
 }
