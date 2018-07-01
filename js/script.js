@@ -2,8 +2,7 @@
   'use strict';
   let icon = document.querySelector('#menuIcon');
   let menu = document.querySelector('#navbar ul');
-  menu.classList.add('invisible');
   icon.addEventListener('click', function() {
-    menu.classList.toggle('invisible');
+    menu.style.display == 'block' ?   menu.style.display = 'none' :   menu.style.display = 'block';
   });
 }());

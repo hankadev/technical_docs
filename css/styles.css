@@ -82,7 +82,7 @@ code {
     height: auto;
     width: 100%;
   }
-  .invisible {
+  #navbar ul {
     display: none;
   }
   main {
