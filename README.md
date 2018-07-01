@@ -1,5 +1,5 @@
 # Technical documentation page
-This is my implementation of [Free Code Camp's](https://www.freecodecamp.org/) Survey From project.
+This is my implementation of [Free Code Camp's](https://www.freecodecamp.org/) Technical Documentation project.
 
 [view in browser](https://hanny21.github.io/technical_docs/)
 
