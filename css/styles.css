@@ -20,6 +20,7 @@ main {
 
 nav header {
   text-align: center;
+  font-size: 1.5em;
 }
 
 nav ul li {
@@ -30,24 +31,55 @@ nav ul li {
 .nav-link {
   text-decoration: none;
   color: black;
+  display: block;
+  border-bottom: 1px solid #009933;
+  padding-left: 20px;
 }
 
-header {
+#navbar {
+  background-color: #ccffcc;
+  height: 100%;
+}
+
+#navbar header {
   padding-top: 25px;
+}
+
+#navbar ul {
+  padding: 0;
+}
+
+#main-doc {
+  padding: 20px;
+}
+
+.main-section header {
+  font-size: 2em;
 }
 
 code {
   white-space: pre;
+  display: block;
+  padding: 10px 5px 10px 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
 }
 
 @media (max-width: 600px) {
   body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0px;
   }
   header {
     text-align: center;
