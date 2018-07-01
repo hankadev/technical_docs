@@ -76,6 +76,7 @@ code {
   #menuIcon {
     display: initial;
     padding-left: 15px;
+    cursor: pointer;
   }
   #navbar {
     height: auto;
