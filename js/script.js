@@ -8,13 +8,6 @@
   });
   /* listen for window width and change the visibility of menu accordingly */
   window.addEventListener('resize', function () {
-    if (window.innerWidth >= 600) {
-      menu.style.display = 'block';
-    }
-  });
-  window.addEventListener('resize', function () {
-    if (window.innerWidth < 600) {
-      menu.style.display = 'none';
-    }
-  });
+    window.innerWidth >= 600 ? menu.style.display = 'block' : menu.style.display = 'none';
+  }); 
 }());
